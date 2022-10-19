@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel ="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div {
+            border-style:solid;
+            border-color:black;
+        }
+    </style>
+</head>
+<body class="container">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Prod TDR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation"></button>
+            <span class=navbar-toggler-icon></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nev-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Social Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://www.youtube.com/channel/UCOFsff8UWjtTB7BJEtTYEzw">Youtube</a>
+                        <a class="dropdown-item" href="https://www.instagram.com/prodtdr/">Instagram</a>
+                        <a class="dropdown-item" href="https://rapchat.com/profile/C1B01EC0-AA72-11EA-80BE-650C0D0F6E04">Rapchat</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+
+    <img src="https://www.sweetwater.com/sweetcare/media/2018/11/FL-Studio-Plug-in-Featured-Image.png"  class="img-fluid" alt="FL Studio monitor display">
+
+    <br>
+
+    <h3>Subscribe to my Youtube!</h3> <!--looks very basic, I want to add style later-->
+    <form> <!--I want there to be more spacing between the image and form-->
+        <div class="mb-3"> <!--I don't like the borders around the form but I'm not sure how to alter it-->
+            <label for="exampleInputEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We will only use your email to subscribe.</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+
+   <script src="node_modules/jquery/dist/jquery.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
